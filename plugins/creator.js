@@ -5,7 +5,7 @@ async function handler(m) {
                     + 'N:;Kang Owner;;;'
                     + 'FN:Kang Owner\n' // full name
                     + 'ORG:Darr;\n' // the organization of the contact
-                    + 'TEL;type=CELL;type=VOICE;waid=6283106733687:+62 831-0673-3687\n' // WhatsApp ID + phone number
+                    + 'TEL;type=CELL;type=VOICE;waid=6285219943099:+62 852-1994-3099\n' // WhatsApp ID + phone number
                     + 'END:VCARD'
                 conn.sendMessage(m.chat, { contacts: { displayName: 'Ilman', contacts: [{ vcard }] } }, { quoted: m })
 }
